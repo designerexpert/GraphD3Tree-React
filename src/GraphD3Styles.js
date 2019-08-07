@@ -2,7 +2,7 @@ export const styles = theme => {
     return {
         root: {
             width: "100%",
-            height: "100vh"
+            height: "70vh"
         },
         chart: {
             width: `calc(100% - ${theme.spacing.unit * 2}px)`,

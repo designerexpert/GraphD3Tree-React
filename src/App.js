@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import GraphTree from "./GraphTree";
+import BoardChip from "./BoardChip";
 import { createMuiTheme } from "@material-ui/core/styles";
 import { ThemeProvider } from "@material-ui/styles";
 
@@ -10,7 +11,10 @@ class App extends Component {
     render() {
         return (
             <ThemeProvider theme={theme}>
-                <GraphTree />
+                <div>
+                    <GraphTree />
+                    <BoardChip />
+                </div>
             </ThemeProvider>
         );
     }
